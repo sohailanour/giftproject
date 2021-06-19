@@ -55,8 +55,13 @@ export default class Signin extends Component {
 
     render() {
         return (
-            <div>
-                <button onClick={this.openForm} className="btn">login</button>
+            <>
+                {/* <button onClick={this.openForm} className="btn">login</button> */}
+                <li className="nav-item">
+                    <a onClick={this.openForm} className="nav-link "><i className="far fa-user fa-2x"></i></a>
+                    {/* <a className="nav-link" href="/"><i className="far fa-user fa-2x"></i> </a> */}
+                </li>
+
                 <div id="logLayer" className={Styles.fixedlayer} >
                     <div className={`${Styles.w_30} loginForm bg-white p-5 position-relative `}>
 
@@ -79,7 +84,7 @@ export default class Signin extends Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            </>
         )
     }
 }

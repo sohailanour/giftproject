@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Signin from '../Signin/Signin'
 import Styles from './Navbar1.module.css'
 
 export default class Navbar1 extends Component {
@@ -29,9 +30,9 @@ export default class Navbar1 extends Component {
       <li className="nav-item">
         <a className="nav-link hello" href="/ContactUs">Contact Us</a>
       </li>
-      <li className="nav-item">
-        <a className="nav-link" href="/"><i className="far fa-user fa-2x"></i> </a>
-      </li>
+
+      <Signin />
+                  
       <li className="nav-item">
         <a className="nav-link" href="/"><i className="fas fa-cart-plus fa-2x"></i> </a>
       </li>

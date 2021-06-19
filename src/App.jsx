@@ -21,8 +21,8 @@ class App extends Component{
     return (
       
       <>
-        <Signin />
-
+        <Navbar1 />
+        <Signin />        
       </>
     )
   }
