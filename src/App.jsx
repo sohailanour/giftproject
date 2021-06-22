@@ -3,6 +3,7 @@ import { Component } from "react";
 // _________________ import Commponents _________________________________
 import Footer from './components/Footer/Footer'
 import Home from  './components/Home/Home';
+import ShowCat from './components/ShowCat/ShowCat'
 import ItemView from   './components/ItemView/ItemView';
 import MainShopNow from   './components/MainShopNow/MainShopNow';
 import Navbar1 from   './components/Navbar1/Navbar1';
@@ -22,7 +23,11 @@ class App extends Component{
       
       <>
         <Navbar1 />
-        <Signin />        
+       
+        <Signin />
+        <Home /> 
+        
+        <ShowCat />       
       </>
     )
   }
