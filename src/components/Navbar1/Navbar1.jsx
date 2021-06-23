@@ -20,16 +20,16 @@ export default class Navbar1 extends Component {
  
 <ul className="navbar-nav ml-auto ">
       <li className="nav-item active">
-        <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
+        <a className="nav-link" href="#home">Home <span className="sr-only">(current)</span></a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="/ShopNow">Shop Now</a>
+        <a className="nav-link" href="#ShopNow">Shop Now</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="/Categories">categories</a>
+        <a className="nav-link" href="#ShowCat">categories</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link hello" href="/ContactUs">Contact Us</a>
+        <a className="nav-link hello" href="#contact">Contact Us</a>
       </li>
 
       <Signin />
