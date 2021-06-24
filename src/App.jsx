@@ -21,18 +21,12 @@ class App extends Component{
     return (
       
       <>
-{/* <<<<<<< HEAD */}
-        <Navbar1 />       
-{/* ======= */}
-        <Navbar1 />
-      {/* <Signin /> */}
-       
-        <Home /> 
-        
+
+        <Navbar1 />              
+        <Home />         
         <ShowCat /> 
         <SubShopNow/>
         <Footer />      
-{/* >>>>>>> ed9da38454f2bb090e4edff41baaa34c08aec573 */}
       </>
     )
   }
