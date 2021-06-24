@@ -6,14 +6,14 @@ import shop3 from '../../img/shop-3.jpg'
 import shop4 from '../../img/shop-4.jpg'
 import shop5 from '../../img/shop-5.jpg'
 import shop6 from '../../img/shop-6.jpg'
-import styles from "./ShowCat.module.css";
+import styles from './ShowCat.module.css';
 export default class ShowCat extends Component {
   render() {
     return (
       <>
        
-       <section id="ShowCat" className="vh-100 m-5">
-  <div className="container">
+       <section id="ShowCat">
+  <div className="container my-5">
     <div className="row">
       <div className="col-lg-4 col-md-6 col-sm-12 mb-1">
         <div className={`${styles['card-item']}`}>

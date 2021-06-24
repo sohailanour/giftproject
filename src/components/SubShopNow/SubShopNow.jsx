@@ -5,7 +5,7 @@ export default class SubShopNow extends Component {
         return (
             <> 
            <section id="ShopNow">
-           <div className={`${styles['shop-card']} card text-center `}>
+           <div className={`card ${styles['shop-card']}  text-center `}>
 
 <div className="card-body d-flex align-items-center justify-content-center">
    <div>
