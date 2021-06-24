@@ -59,7 +59,6 @@ export default class Signin extends Component {
                 {/* <button onClick={this.openForm} className="btn">login</button> */}
                 <li className="nav-item">
                     <a onClick={this.openForm} className="nav-link "><i className="far fa-user fa-2x"></i></a>
-                    {/* <a className="nav-link" href="/"><i className="far fa-user fa-2x"></i> </a> */}
                 </li>
 
                 <div id="logLayer" className={Styles.fixedlayer} >
@@ -88,9 +87,3 @@ export default class Signin extends Component {
         )
     }
 }
-
-{/* <div className="loginSocial text-center p-3">
-    <p className={`position-relative w-100 ${Styles.hr_p}`}>Or Login With</p>                           
-    <div type="submit"  className="btn btn-lg btn-primary w-100 text-center mb-3">Continue With Facebook</div>
-    <div type="submit"  className="btn btn-lg btn-danger w-100 text-center mb-4">Continue With Google</div>
-</div> */}
