@@ -43,3 +43,11 @@ a:hover {
   color: #e74c3c;
   text-decoration: none;
 }
+/* start slider */
+.carousel-item{
+  height: 70vh;
+} 
+/* end slider */
+
+
+

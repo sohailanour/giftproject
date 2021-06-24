@@ -58,7 +58,12 @@ export default class Signin extends Component {
             <>
                 {/* <button onClick={this.openForm} className="btn">login</button> */}
                 <li className="nav-item">
+<<<<<<< HEAD
                     <a onClick={this.openForm} className="nav-link "><i className="far fa-user fa-2x"></i></a>
+=======
+                    <a onClick={this.openForm} className="nav-link "><i className="far fa-user fa-1x"></i></a>
+                    {/* <a className="nav-link" href="/"><i className="far fa-user fa-2x"></i> </a> */}
+>>>>>>> ed9da38454f2bb090e4edff41baaa34c08aec573
                 </li>
 
                 <div id="logLayer" className={Styles.fixedlayer} >
