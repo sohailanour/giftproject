@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+import { NavLink } from "react-router-dom";
 import shop1 from '../../img/shop-1.jpg'
 import shop2 from '../../img/shop-2.jpg'
 import shop3 from '../../img/shop-3.jpg'
@@ -33,7 +34,7 @@ export default class ShowCat extends Component {
                             </div>
                             <div className={`${styles['card-desc']} text-center pt-3`}>
                               <h3>{value.caption}</h3>
-                              <a href="/" className="btn btn-md" role="button">Shop Now</a>
+                              <NavLink to="/" className="btn btn-md" role="button">Shop Now</NavLink>
                             </div>
                           </div>
                         </div>

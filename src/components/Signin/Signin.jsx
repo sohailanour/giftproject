@@ -57,7 +57,7 @@ export default class Signin extends Component {
         return (
             <>
                 <li className="nav-item">
-                    <a onClick={this.openForm} className="nav-link "><i className="far fa-user fa-2x"></i></a>
+                    <a onClick={this.openForm} className="nav-link "><i className="far fa-user fa-fw"></i></a>
                 </li>
 
                 <div id="logLayer" className={Styles.fixedlayer} >

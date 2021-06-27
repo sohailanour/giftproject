@@ -21,11 +21,9 @@ class App extends Component{
     return (
       
       <>
-
         <Navbar1 />              
         <Home />         
-        <ShowCat /> 
-        <SubShopNow/>
+        
         <Footer />      
       </>
     )

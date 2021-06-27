@@ -3,6 +3,8 @@ import React, { Component } from 'react'
 import img1 from '../../img/slider-1.jpg' 
 import img2 from '../../img/slider-2.jpg' 
 import img3 from '../../img/slider-3.jpg' 
+import ShowCat from '../ShowCat/ShowCat'
+import SpecialOfferSection from './SpecialOfferSection'
 import styles from './Home.module.css'
 export default class Home extends Component {
     render() {
@@ -41,8 +43,10 @@ export default class Home extends Component {
                     </div>                        
                   </div>
                 </div>
-              </section>
-                                  
+            </section>
+            
+              <ShowCat /> 
+              <SpecialOfferSection/>
             </>
         )
     }

@@ -29,7 +29,7 @@ export default class Navbar1 extends Component {
                           </li>
                           <Signin />                                  
                           <li className="nav-item">
-                            <a className="nav-link" href="/"><i className="fas fa-cart-plus fa-2x"></i> </a>
+                            <a className="nav-link" href="/"><i className="fas fa-cart-plus  fa-fw"></i> </a>
                           </li>                                    
                         </ul>
                     </div>
