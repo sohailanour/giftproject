@@ -1,0 +1,45 @@
+.cartTitle {
+  min-height: 120px;
+  background-color: #f2f3f5;
+}
+.cartFather {
+  height: 350px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.carthover {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: top 0.5s;
+}
+.cartFather:hover .carthover {
+  top: 0;
+}
+.cartFather:hover .carthover i {
+  transform: rotate(0deg);
+}
+.carthover i {
+  font-size: 30px;
+  color: black;
+  transform: rotate(360deg);
+  transition: transform 0.9s 0.5s;
+}
+.carthover .icon {
+  background-color: #f2f3f5;
+}
+.carthover .icon:hover {
+  background-color: black;
+}
+.carthover .icon:hover i {
+  color: #f2f3f5;
+}
+
+.btn-light:hover {
+  color: #f2f3f5;
+  background-color: black;
+  border-color: black;
+}

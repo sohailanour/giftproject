@@ -1,0 +1,55 @@
+.gift-desc{
+    min-height: 120px;
+  
+}
+.card-item {
+   
+    border-radius: 30px;
+    box-shadow: 5px 5px 30px rgb(0 0 0 / 17%);
+    
+    position: relative;
+  }
+  .gift-desc {
+    height: 40%;
+  padding-top: 10px;
+    background: #a6c0fe;
+  
+    background:-webkit-linear-gradient(
+      to right,
+      rgba(166, 192, 254, 0.5),
+      rgba(246, 128, 132, 0.5)
+    );
+  
+    background: linear-gradient(
+      to right,
+      rgba(166, 192, 254, 0.5),
+      rgba(246, 128, 132, 0.5)
+    );
+    
+  }
+  .gift-desc {
+    color: rgba(105, 105, 105, 0.685);
+  }
+  .gift-d a {
+    background-color: rgba(105, 105, 105, 0.685);
+    color: #fff;
+    /* border: 2px solid #fff; */
+  }
+  .gift-d{
+      
+    border-bottom-left-radius: 30px; 
+    border-bottom-right-radius: 30px; 
+    background: #a6c0fe;
+  
+    background:-webkit-linear-gradient(
+      to right,
+      rgba(166, 192, 254, 0.5),
+      rgba(246, 128, 132, 0.5)
+    );
+  
+    background: linear-gradient(
+      to right,
+      rgba(166, 192, 254, 0.5),
+      rgba(246, 128, 132, 0.5)
+    );
+  }

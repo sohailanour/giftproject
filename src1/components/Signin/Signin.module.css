@@ -1,0 +1,60 @@
+.fixedlayer {
+  position: fixed;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 100%;
+  left: 0;
+  z-index: 99999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+}
+
+.w_30 {
+  width: 30%;
+}
+
+p {
+  font-size: 20px;
+  color: black;
+  font-weight: 500;
+}
+
+.hr_p::after,
+.hr_p::before {
+  content: " ";
+  position: absolute;
+  width: 35%;
+  right: 0;
+  top: 50%;
+  border-bottom: 1px solid #888;
+  transform: translateY(50%);
+  -webkit-transform: translateY(50%);
+  -moz-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  -o-transform: translateY(50%);
+}
+
+.hr_p::before {
+  left: 0;
+}
+
+.a_custom {
+  font-size: 18px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.close_icon {
+  right: 0;
+  top: 0;
+  color: #888;
+  font-size: 20px;
+  cursor: pointer;
+}

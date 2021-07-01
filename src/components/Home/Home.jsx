@@ -4,16 +4,43 @@ import img1 from '../../img/slider-1.jpg'
 import img2 from '../../img/slider-2.jpg' 
 import img3 from '../../img/slider-3.jpg' 
 import ShowCat from '../ShowCat/ShowCat'
+import Category from '../MainShopNow/Category'
+import { NavLink } from "react-router-dom";
 import SpecialOfferSection from './SpecialOfferSection'
 import styles from './Home.module.css'
+import Search from '../Search/Search'
+import searchFunc from '../Search/searchFunc'
+import store from '../../store'
+
 export default class Home extends Component {
+  
+  state = { searchData: [] }
+
+  
+  componentDidMount() {
+    
+    console.log(this.state.searchData)
+  }
+  
+  search = () =>{
+    let searchResult = searchFunc()
+    console.log("home search")
+    console.log(searchResult)
+    this.setState({searchData: searchResult})
+  }
+  
     render() {
         return (
             <>
-             
-              <section id="home">
-                <div className="container">
-                  <div className={`${styles.slider} m-auto`}>
+            
+            <div className="mt-5">
+              <Search search={this.search} />
+              <Category catName="All" searchData={this.state.searchData} addItem={this.props.addItem}/>
+            </div>
+
+            <section id="home">              
+                  <div className="container">
+                      <div className={`${styles.slider} m-auto`}>
                     <div id="carouselExampleIndicators" className="carousel slide h-75 " data-ride="carousel">
                       <ol className="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to={0} className="active" />
@@ -42,11 +69,12 @@ export default class Home extends Component {
                       </a>
                     </div>                        
                   </div>
-                </div>
-            </section>
-            
-              <ShowCat /> 
-              <SpecialOfferSection/>
+                  </div>
+              </section>
+              
+              <ShowCat/>
+            <SpecialOfferSection />
+                
             </>
         )
     }

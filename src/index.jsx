@@ -12,15 +12,18 @@ import "popper.js/dist/umd/popper.min.js"
 import "bootstrap/dist/js/bootstrap.min.js";
 
 // _____________ import main css file ____________
+
 import './index.css';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <BrowserRouter>
+  
+    <React.StrictMode>
+      <BrowserRouter>
       <App />
-    </BrowserRouter>
+      </BrowserRouter>
+      </React.StrictMode>
     
-  </React.StrictMode>,
+  ,
   document.getElementById('root')
 );
 
